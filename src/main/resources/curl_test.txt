@@ -1,1 +1,10 @@
 curl -X POST -H "Content-Type:application/json" -d "{\"hostname\":\"staroot03\",\"ip\":\"192.168.56.23\",\"cmd\":\"uptime\",\"result\":\"100d\"}" http://localhost:8080/server/send
+
+
+#h2 접속방법
+http://localhost:8080/h2-console
+jdbc:h2:mem:testdb
+sa/없음 (암호입력 불필요)
+
+http://localhost:8080/v4/menus
+http://localhost:8080/v5/menus
